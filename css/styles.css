@@ -7,29 +7,50 @@ body {
 
 .site-header {
   background-image: url(../img/fond_fruits.webp);
+  background-size: cover;
   padding: 30px;
 }
 
 .site-header .title-container {
   background: #ffffffdd;
+  padding: 20px 50px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .site-header p {
   color: #57BB6B;
+  font-family: "Quattrocento";
+  font-size: 20px;
 }
 
 /* footer */
 
 footer {
-  background: white;
+  background: #ffffff;
+  text-align: center;
 }
 
 footer h2 {
   color: #57BB6B;
 }
 
+.button {
+  padding: 0px 30px;
+  background-color: #57BB6B;
+  margin: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
 footer p {
   color: #57BB6B;
+}
+
+.fruit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .fruit-container img {
