@@ -1,9 +1,37 @@
+body {
+  width: 380px;
+  margin: auto;
+}
+
 /* header */
 
 .site-header {
-  background-image: url(file:///Users/tafanimarina/Sites/15-emojuice/img/fond_fruits.webp);
+  background-image: url(../img/fond_fruits.webp);
+  padding: 30px;
+}
+
+.site-header .title-container {
+  background: #ffffffdd;
 }
 
 .site-header p {
   color: #57BB6B;
+}
+
+/* footer */
+
+footer {
+  background: white;
+}
+
+footer h2 {
+  color: #57BB6B;
+}
+
+footer p {
+  color: #57BB6B;
+}
+
+.fruit-container img {
+  width: 28px;
 }
